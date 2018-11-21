@@ -3,13 +3,13 @@ var shield_texture;
 var hp_text;
 
 var heart_colours = {
-	"red": 0xff0000,
-	"green": 0x00ff00,
+	"red": 0x00ffff,
+	"green": 0xffff00,
 }
 
 function Heart() {
 
-	this.maxhp = 4; // always starts with 4 HP
+	this.maxhp = 1; // always starts with 1 HP
 	this.hp = this.maxhp;
 	this.invincibility = 0;
 	this.invincibility_increment = 1000;
