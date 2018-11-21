@@ -113,15 +113,15 @@ Menu.prototype.updateLove = function() {
 	switch (this.current_option) {
 		case 0:
 			love_text.text = "LV 1";
-			heart.setMaxHP(4);
+			heart.setMaxHP(1);
 			break;
 		case 1:
 			love_text.text = "LV 10";
-			heart.setMaxHP(4);
+			heart.setMaxHP(1);
 			break;
 		case 2:
 			love_text.text = "LV 99";
-			heart.setMaxHP(4);
+			heart.setMaxHP(1);
 			break;
 	}
 }
